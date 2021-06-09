@@ -5,9 +5,22 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Straitjacket.Math", "Straitjacket.Math\Straitjacket.Math.shproj", "{EDF9AFB9-5A40-4818-8004-95E22D5B7BA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Straitjacket.MathModule", "Straitjacket.MathModule\Straitjacket.MathModule.csproj", "{9D474C8F-FA6D-49C9-B03C-FE7685CC8157}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Straitjacket.Math\Straitjacket.Math.projitems*{9d474c8f-fa6d-49c9-b03c-fe7685cc8157}*SharedItemsImports = 4
 		Straitjacket.Math\Straitjacket.Math.projitems*{edf9afb9-5a40-4818-8004-95e22d5b7ba0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D474C8F-FA6D-49C9-B03C-FE7685CC8157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D474C8F-FA6D-49C9-B03C-FE7685CC8157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D474C8F-FA6D-49C9-B03C-FE7685CC8157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D474C8F-FA6D-49C9-B03C-FE7685CC8157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
