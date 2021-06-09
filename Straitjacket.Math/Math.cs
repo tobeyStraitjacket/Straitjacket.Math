@@ -2,6 +2,9 @@
 
 namespace Straitjacket
 {
+    /// <summary>
+    /// A simple collection of static math utility methods.
+    /// </summary>
     public static class Math
     {
         /// <summary>
