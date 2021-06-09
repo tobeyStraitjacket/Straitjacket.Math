@@ -20,7 +20,7 @@ namespace Straitjacket
 
         public static double Map(this double input,
                                  double inputFrom, double inputTo,
-                                 double outputFrom, float outputTo)
+                                 double outputFrom, double outputTo)
         {   // using y = mx + c to solve where:
             // m = slope of the line (ratio of range2 / range1)
             // c = the point where y intercepts the line (difference between range2 and range1 start/end, multiplied by the slope)
